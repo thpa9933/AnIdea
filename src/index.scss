@@ -379,11 +379,22 @@ hr {
   background-repeat: no-repeat;
   background-size: contain;
 
-  ul{
-    display:block;
+  ul {
+    padding: 0;
   }
-  li{
-    display: inline-grid;
+
+  li {
+    // border: 1px solid black;
+    border-radius: 4px;
+    cursor:pointer;
+    transition: ease all .2s;
+    margin: 10px;
+    text-align: center;
+  }
+
+  li:hover {
+    background: var(--compX-color);
+    color: black;
   }
 }
 
@@ -398,18 +409,11 @@ hr {
   min-height: 100vh;
 }
 
-button {
-  padding: 5px;
-  background:white;
-  border: 1px solid black;
-  border-radius: 4px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
 
 .webLinks {
   display: flex;
   justify-content: space-evenly;
+
 }
 
 .carousel-indicators li {

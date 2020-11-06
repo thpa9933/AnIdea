@@ -41,13 +41,11 @@ function ServicesHome() {
                 <div class="parallax-right">
                     <Parallax speed={5}>
                         <ul>
-                            <li>
-                                <button onClick={scrollToResearch}> Research </button>
-                                <button onClick={scrollToSoftware}> Software Development </button>
-                                <button onClick={scrollToModeling}> 3D Modeling </button>
-                                <button onClick={scrollToComputing}> Physical Computing </button>
-                                <button onClick={scrollToGraphicDesign}> Graphic Design </button>
-                            </li>
+                            <li onClick={scrollToResearch}> Research </li>
+                            <li onClick={scrollToSoftware}> Software Development </li>
+                            <li onClick={scrollToModeling}> 3D Modeling </li>
+                            <li onClick={scrollToComputing}> Physical Computing </li>
+                            <li onClick={scrollToGraphicDesign}> Graphic Design </li>
                         </ul>
                     </Parallax>
                 </div>
