@@ -20,7 +20,7 @@ function ProjectScope({addScope, service}){
                     <h2>Lets talk about project scope.</h2>
                     <p>I want to compete XXX milestones</p>
                     <p>In X about of time</p>
-                    <p>What do you consider to be a successful product?</p>
+                    <p>What do you consider to be a successful</p>
                     <hr/>
                 </div>
 

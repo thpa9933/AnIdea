@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
+
 
 class Home extends Component {
     render(){
@@ -33,6 +33,8 @@ class Home extends Component {
                         <p>Whether it be graphic design, software development, part fabrication or physical computing -
                             We are skilled in it all.
                         </p>
+
+                        
                     </div>
                     <div id="scroll-preview" >
                         <img id="down-arrow" onClick={scrollToHome2} src={require('../img/Arrow-down.svg')} height="20px"/>

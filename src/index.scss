@@ -86,6 +86,7 @@ li {
   overflow: hidden;
   transition: all 1s ease;
   font-weight: bold;
+  position: fixed;
 }
 
 .activeNav {
@@ -130,8 +131,13 @@ li {
 .content {
   height: 100vh;
   text-align: left;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+}
+
+.main {
+    height: 100vh;
+    text-align: left;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
 section {
@@ -201,8 +207,22 @@ section:nth-child(odd) {
 }
 
 #title {
-  grid-column: 2;;
+  grid-column: 2;
   grid-row: 2;
+  letter-spacing: 3px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:auto;
+
+  h1 {
+    font-size: 100px;
+  }
+}
+
+#title-services {
+  grid-column: 1 / span 3;
+  grid-row: 1;
   letter-spacing: 3px;
   display:flex;
   flex-direction: column;
@@ -284,81 +304,108 @@ hr {
   background: var(--compY-color);
 }
 
+#image-carousel {
+  grid-row: 2 / span 3;
+  grid-column: 1 / span 3;
+  margin:5%;
+  max-height: 500px;
+}
+
+.carousel-inner {
+  max-width: 1080px;
+  margin: auto;
+}
+
+
+#coverImage {
+  max-width: 400px;
+  background: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
 // Parallax
 
-// .Parallax {
-//   display: flex;
-//   justify-content: center;
-//   flex-direction: column;
+.Parallax-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+  padding: 15%;
 
-//   &__background-image-1 ,
-//   &__background-image-2 {
-//     width: 1080px;
-//     height: 1280px;
-//     background-repeat: no-repeat;
-//     background-size: contain;
-//     position: absolute;
-//   }
+  a {
+    margin: 5px;
+  }
+}
 
-//   &__background-image-1 {
-//    //background-image: url("../src/img/background.png");
-//    background-image: url("../src/img/blob.svg");
-//   }
+.Parallax-section:nth-child(odd) {
+  background: var(--compZ-color);
+  color: white;
+}
 
-//   &__background-image-2 {
-//     background-image: url("../src/img/background-triangles.png");
-//   }
+.parallax-right {
+  width: 50%;
+  height: 30vh;
+  background-image: url("../src/img/character.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 
-// }
+  ul{
+    display:block;
+  }
+  li{
+    display: inline-grid;
+  }
+}
 
-// .specific-service {
-//   grid-column: 1 / span 3;
-//   grid-row: 1 / span 3;
-//   z-index: 2;
-//   height: 100vh;
+.parallax-left {
+  width: 50%;
+  height: 30vh;
+}
 
-//   &__background-image-1 ,
-//   &__background-image-2 {
-//     width: 1080px;
-//     height: 1280px;
-//     background-repeat: no-repeat;
-//     background-size: contain;
-//     position: absolute;
-//   }
+.newSection {
+  background-color: #e74c3c;
+  min-height: 100vh;
+}
 
-//   &__background-image-1 {
-//   background-image: url("../src/img/blob.svg");
-//   }
+button {
+  padding: 5px;
+  background:white;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
-//   &__background-image-2 {
-//     background-image: url("../src/img/background-triangles.png");
-//   }
-// }
+.webLinks {
+  display: flex;
+  justify-content: space-evenly;
+}
 
-// .services-item-intro {
-//   position: relative;
-//   height: 15%;
-//   width: 33%;
-//   background: white;
-//   top: 15%; 
-//   left: 15%;
-// }
-
-// .services-item-content {
-//   position: relative;
-//   height: 40%;
-//   width: 33%;
-//   background: grey;
-//   top: 12%; 
-//   left: 40%;
-// }
-
-// .services-item-conclusion {
-//   position: relative;
-//   height: 15%;
-//   width: 33%;
-//   background: black;
-//   top: 15%; 
-//   left: 25%;
-// }
-
+.carousel-indicators li {
+  height: 1px;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 
 class About extends Component {
     render() {
@@ -6,8 +7,8 @@ class About extends Component {
     var i = 0;
 
     var imageCycle = new Array();
-    imageCycle[0] = "../img/headshots/1.png"
-    imageCycle[1] = "../img/headshots/2.png"
+    imageCycle[0] = "/../img/headshots/1.png"
+    imageCycle[1] = "/../img/headshots/2.png"
     imageCycle[2] = "img/headshots/3.png"
     imageCycle[3] = "img/headshots/4.png"
     imageCycle[4] = "img/headshots/5.png"
@@ -22,7 +23,7 @@ class About extends Component {
         if(i == 10){
         i = 0;
         }
-        document.getElementById('#coverImage').attr('src={require()}', imageCycle[i]);
+        $('#coverImage').attr('src', require(imageCycle[i]));
     }
 
         function scrollToAbout1() {
@@ -34,7 +35,7 @@ class About extends Component {
         }
 
         return (
-            <div>
+            <div class="main">
                 <section>
                     <div id="title">
                         <h1>About</h1>
@@ -56,7 +57,8 @@ class About extends Component {
                         <hr/>
                     </div>
                     <div id="item-content">
-                        {/* <img id="coverImage" onclick={cycleImages} onmouseover={cycleImages} src={require("../img/headshots/") } /> */}
+                    {/* onmouseover={cycleImages} */}
+                        <img id="coverImage" src={require("../img/headshots/headshot.gif") } />
                     </div>
 
                     <div id="item-conclusion">
@@ -75,11 +77,20 @@ class About extends Component {
                         <hr/>
                     </div>
                     <div id="item-content">
-                        
+                        <p>All my life I have been deeply interested in form, functionality, and visual design.</p>
+                        <p>During college I build toys - seriously. I would design, 3D model, fabricate, and program whichever
+                            idea i had concocted. I'd then create graphic boards, give presentations and try to impress an audiance as
+                            to why my toy is so neat.
+                        </p>
+                        <p>
+                            I didn't only build toys though. I've worked extensivly programming a 3D modeling engine, cyber simulations, novel medical hardware,
+                            and now I currently write software for the Joint Strike Fighter.
+                        </p> 
                     </div>
 
                     <div id="item-conclusion">
-                        <p>I'm all about the end user and their experience. Lets build a relationship.</p>
+                        <p>So all in all i'm a Jack. I love seeing ideas come to life and I have accumulated a broad
+                            skillset to make that happen. So if you provide me with AnIdea - i'll create it.</p>
                     </div>
                 </section>
 

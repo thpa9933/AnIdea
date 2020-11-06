@@ -1,10 +1,9 @@
 
 import React, { useState } from 'react';
-import { Route, HashRouter, Switch, useLocation} from 'react-router-dom';
+import { Route, HashRouter, Switch} from 'react-router-dom';
 
 // Style Libs
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'react-bootstrap';
 import { AnimatePresence } from 'framer-motion';
 
 // Header
@@ -15,9 +14,6 @@ import Home from './components/home';
 
 //Services
 import ServicesHome from './components/services';
-import Modeling from './components/services/modeling';
-import Graphic from './components/services/graphic';
-import Fabrication from './components/services/fabrication';
 
 //Navigation
 import Navigation from './components/navigation';
