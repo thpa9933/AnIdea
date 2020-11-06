@@ -36,7 +36,6 @@ function ServicesHome() {
                             we can produce the product you are invisioning.
                         </p>
                     </Parallax>
-
                 </div>
 
                 <div class="parallax-right">
@@ -52,6 +51,8 @@ function ServicesHome() {
                         </ul>
                     </Parallax>
                 </div>
+
+                <img id="down-arrow" onClick={scrollToResearch} src={require('../img/Arrow-down.svg')} height="20px"/>
             </div>
 
             <div class="Parallax-section" id="research">
@@ -76,6 +77,8 @@ function ServicesHome() {
                         </p>
                     </Parallax>
                 </div>
+
+                <img id="down-arrow" onClick={scrollToSoftware} src={require('../img/Arrow-down.svg')} height="20px"/>
             </div>
 
             <div class="Parallax-section" id="softwareDev">
@@ -113,6 +116,7 @@ function ServicesHome() {
                             <a href="http://creative.colorado.edu/~thpa9933/DEV/Parallax/parallax.html" class="btn btn-primary">ParallaxDoggo</a>
                     </Parallax>
                 </div>
+                <img id="down-arrow" onClick={scrollToModeling} src={require('../img/Arrow-down.svg')} height="20px"/>
             </div>
 
             <div class="Parallax-section" id="modeling">
@@ -155,7 +159,7 @@ function ServicesHome() {
                         </Carousel.Item>
                     </Carousel>
                 </div>
-
+                <img id="down-arrow" onClick={scrollToComputing} src={require('../img/Arrow-down.svg')} height="20px"/>
             </div>
 
             <div class="Parallax-section" id="computing">
@@ -176,6 +180,8 @@ function ServicesHome() {
                         </p>
                     </Parallax>
                 </div>
+
+                <img id="down-arrow" onClick={scrollToGraphicDesign} src={require('../img/Arrow-down.svg')} height="20px"/>
             </div>
 
             <div class="Parallax-section" id="graphicDesign">
@@ -194,89 +200,7 @@ function ServicesHome() {
             </div>
 
 
-            {/* <section>
-                <div id="title">
-                    <h1>Services</h1>
-                    <br/>
-                    <p> We offer the following services below. </p>
-                    <p> Scroll down to check some of our work </p>
-                </div>
-
-                <div id="scroll-preview" >
-                    <img id="down-arrow" onClick={scrollToGraphicDesign} src={require('../img/Arrow-down.svg')} height="20px"/>
-                </div>
-
-            </section>
-
-            <section id="graphicDesign">
-                <div id="title-services">
-                    <h1>Graphic Design</h1>
-                    <br/>
-                    <p> Website wireframes, posters, logo? </p>
-                </div>
-
-                <Carousel id="image-carousel">
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src={require('../img/Furniture1.jpg')}
-                        alt="First slide"
-                        />
-                        <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src={require('../img/Furniture1.jpg')}
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src={require('../img/Furniture1.jpg')}
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-
-                <div id="scroll-preview" >
-                    <img id="down-arrow" onClick={scrollToSoftware} src={require('../img/Arrow-down.svg')} height="20px"/>
-                </div>
-            </section>
-
-            <section id="softwareDev">
-                <div id="title">
-                    <h1>Software Development</h1>
-                    <br/>
-                    <p>We handle personal websites, portfolios, e-commerce etc..</p>
-                </div>
-
-                <div id="scroll-preview" >
-                    <img id="down-arrow" onClick={scrollToModeling} src={require('../img/Arrow-down.svg')} height="20px"/>
-                </div>
-            </section>
-
-            <section id="modeling">
-                <div id="title">
-                    <h1>3D modeling</h1>
-                    <br/>
-                    <p>Mechincal Parts, ergonomic design ..</p>
-                </div>
-            </section> */}
+           
         </>
     );
     

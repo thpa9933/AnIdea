@@ -67,6 +67,7 @@ li {
   display: flex;
   justify-content: center;
   cursor: pointer;
+  z-index: 2;
 
   a {
     color: white;
@@ -92,6 +93,7 @@ li {
 .activeNav {
   font-size:18px;
   padding-left: 10px;
+  border-left: 2px solid black;
 }
 
 .NavButton {
@@ -193,8 +195,10 @@ section:nth-child(odd) {
 .active {
   transition: ease all .3s;
   color: var(--accent-color);
-  font-style: italic;
+  // font-style: italic;
+  font-weight: bold;
   padding-left: 15px;
+  border-left: 2px solid var(--accent-color);
 }
 
 /* item-conclusion */
@@ -370,6 +374,7 @@ hr {
 .parallax-right {
   width: 50%;
   height: 30vh;
+  padding: 10px;
   background-image: url("../src/img/character.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -385,6 +390,7 @@ hr {
 .parallax-left {
   width: 50%;
   height: 30vh;
+  padding: 10px;
 }
 
 .newSection {
