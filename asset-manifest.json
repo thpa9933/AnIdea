@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AnIdea/static/css/main.329abf3c.chunk.css",
+    "main.css": "/AnIdea/static/css/main.6c692958.chunk.css",
     "main.js": "/AnIdea/static/js/main.3f4a2448.chunk.js",
     "main.js.map": "/AnIdea/static/js/main.3f4a2448.chunk.js.map",
     "runtime-main.js": "/AnIdea/static/js/runtime-main.c20cf64a.js",
@@ -9,10 +9,10 @@
     "static/js/2.f6a079e2.chunk.js": "/AnIdea/static/js/2.f6a079e2.chunk.js",
     "static/js/2.f6a079e2.chunk.js.map": "/AnIdea/static/js/2.f6a079e2.chunk.js.map",
     "index.html": "/AnIdea/index.html",
-    "precache-manifest.8be46b07eb47f558ff7e865ee775d905.js": "/AnIdea/precache-manifest.8be46b07eb47f558ff7e865ee775d905.js",
+    "precache-manifest.e3f80295204029aa60c5a3727568eda2.js": "/AnIdea/precache-manifest.e3f80295204029aa60c5a3727568eda2.js",
     "service-worker.js": "/AnIdea/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/AnIdea/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.329abf3c.chunk.css.map": "/AnIdea/static/css/main.329abf3c.chunk.css.map",
+    "static/css/main.6c692958.chunk.css.map": "/AnIdea/static/css/main.6c692958.chunk.css.map",
     "static/js/2.f6a079e2.chunk.js.LICENSE.txt": "/AnIdea/static/js/2.f6a079e2.chunk.js.LICENSE.txt",
     "static/media/Arrow-down.svg": "/AnIdea/static/media/Arrow-down.7fc62e6e.svg",
     "static/media/Furniture1.jpg": "/AnIdea/static/media/Furniture1.8008f8da.jpg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.c20cf64a.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.f6a079e2.chunk.js",
-    "static/css/main.329abf3c.chunk.css",
+    "static/css/main.6c692958.chunk.css",
     "static/js/main.3f4a2448.chunk.js"
   ]
 }
