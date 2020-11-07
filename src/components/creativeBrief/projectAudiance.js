@@ -26,7 +26,7 @@ function ProjectAudiance({addAudiance, service}){
                     <div id="item-content">
                         <ul>
                             {audianceList.map(name => {
-                                let spanClass = service.serviceAudiance.includes(name) ? 'active' : '';
+                                let spanClass = service.serviceAudiance.includes(name) ? 'activeBrief' : '';
                                 return (
                                     <li key={name} onClick={() => addAudiance(name)}>
                                         <span className={spanClass} id="spanSelection"> { name }</span>

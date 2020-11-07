@@ -28,7 +28,7 @@ const BeginBrief = ({ addServiceName, service }) => {
                 <ul id="item-content">
 
                     {serviceNames.map(name => {
-                        let spanClass = service.serviceName.includes(name) ? 'active' : '';
+                        let spanClass = service.serviceName.includes(name) ? 'activeBrief' : '';
                         return (
                             <li key={name} onClick={() => addServiceName(name)}>
                                 <span className={spanClass}> { name }</span>

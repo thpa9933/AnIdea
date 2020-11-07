@@ -35,11 +35,7 @@ function ServicesHome() {
                         <p>At AnIdea we offer several different services to ensure that
                             we can produce the product you are invisioning.
                         </p>
-                    </Parallax>
-                </div>
 
-                <div class="parallax-right">
-                    <Parallax speed={5}>
                         <ul>
                             <li onClick={scrollToResearch}> Research </li>
                             <li onClick={scrollToSoftware}> Software Development </li>
@@ -47,7 +43,12 @@ function ServicesHome() {
                             <li onClick={scrollToComputing}> Physical Computing </li>
                             <li onClick={scrollToGraphicDesign}> Graphic Design </li>
                         </ul>
+
                     </Parallax>
+                </div>
+
+                <div class="parallax-right">
+
                 </div>
 
                 <img id="down-arrow" onClick={scrollToResearch} src={require('../img/Arrow-down.svg')} height="20px"/>
@@ -83,14 +84,10 @@ function ServicesHome() {
                 <div class="parallax-left">
                     <Parallax speed={0}>
                         <h1>Software Development</h1>
+                        <hr/>
                         <p> We handle web application, personal sites,
                             portfolios, simple e-commerse, you name it.
                         </p>
-                    </Parallax>
-                </div>
-
-                <div class="parallax-right">
-                    <Parallax speed={0}>
                         <p>
                             Our lead developer (Tom) is a software engineer.
                             He enjoys UI design and writing web applications (like this one).
@@ -101,17 +98,23 @@ function ServicesHome() {
                     </Parallax>
                 </div>
 
-                <div class="webLinks">
+                <div class="parallax-right">
                     <Parallax speed={0}>
-                            <a href="http://creative.colorado.edu/~thpa9933/DEV/ClockWork/index.html" class="btn btn-primary">Clockwork</a>
-                            <a href="http://creative.colorado.edu/~thpa9933/DEV/Faux/index.html" class="btn btn-primary">MockCompany</a>
-                            <a href="http://creative.colorado.edu/~thpa9933/DEV/LoveLetters/bashLove.html" class="btn btn-primary">BashLove</a>
-                            <a href="http://creative.colorado.edu/~thpa9933/DEV/LoveLetters/gitLove.html" class="btn btn-primary">GitLove</a>
-                            <a href="http://creative.colorado.edu/~thpa9933/DEV/LoveLetters/githubLove.html" class="btn btn-primary">GitHubLove</a>
-                            <a href="http://creative.colorado.edu/~thpa9933/DEV/Animation/index.html" class="btn btn-primary">Michael Jackson</a>
-                            <a href="http://creative.colorado.edu/~thpa9933/DEV/SpriteSheets/index.html" class="btn btn-primary">SpriteSheets</a>
-                            <a href="http://creative.colorado.edu/~thpa9933/DEV/Message/index.html" class="btn btn-primary">Breathe</a>
-                            <a href="http://creative.colorado.edu/~thpa9933/DEV/Parallax/parallax.html" class="btn btn-primary">ParallaxDoggo</a>
+                        <h3>Single-serving-site Examples</h3>
+                        <div class="weblinks">
+                            <ul>
+                                <li href="http://creative.colorado.edu/~thpa9933/DEV/ClockWork/index.html">Clockwork</li>
+                                <li href="http://creative.colorado.edu/~thpa9933/DEV/Faux/index.html">MockCompany</li>
+                                <li href="http://creative.colorado.edu/~thpa9933/DEV/LoveLetters/bashLove.html">BashLove</li>
+                                <li href="http://creative.colorado.edu/~thpa9933/DEV/LoveLetters/gitLove.html">GitLove</li>
+                            </ul>
+                            <ul>
+                                <li href="http://creative.colorado.edu/~thpa9933/DEV/LoveLetters/githubLove.html">GitHubLove</li>
+                                <li href="http://creative.colorado.edu/~thpa9933/DEV/Animation/index.html">Michael Jackson</li>
+                                <li href="http://creative.colorado.edu/~thpa9933/DEV/SpriteSheets/index.html">SpriteSheets</li>
+                                <li href="http://creative.colorado.edu/~thpa9933/DEV/Message/index.html">Breathe</li>
+                            </ul>
+                        </div>
                     </Parallax>
                 </div>
                 <img id="down-arrow" onClick={scrollToModeling} src={require('../img/Arrow-down.svg')} height="20px"/>
@@ -187,12 +190,44 @@ function ServicesHome() {
                     <Parallax speed={0}>
                         <h1>Graphic Design</h1>
                         <p>Maybe you've come all this way and you just need a poster for your next event.</p>
+                        <br/>
+                        <p>Again, we've got you covered.</p>
                     </Parallax>
                 </div>
 
                 <div class="parallax-right">
                     <Parallax speed={0}>
-                            <p>Again, we've got you covered.</p>
+                            
+
+                            <Carousel>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={require('../img/Furniture1.jpg')}
+                            alt="First slide"
+                            />
+                            {/* <Carousel.Caption>
+                            <h3>First slide label</h3>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </Carousel.Caption> */}
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={require('../img/Furniture1.jpg')}
+                            alt="Third slide"
+                            />
+
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={require('../img/Furniture1.jpg')}
+                            alt="Third slide"
+                            />  
+                        </Carousel.Item>
+                    </Carousel>
+
                     </Parallax>
                 </div>
             </div>
