@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e555f345890a36f57ff18cc13d045544",
+    "revision": "c02b1d13e9547e4d29b7ac2d7811559a",
     "url": "/AnIdea/index.html"
   },
   {
-    "revision": "02536b4c31583b6955e3",
+    "revision": "3321e5f914c892ead899",
     "url": "/AnIdea/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "9e04382c435ec3fd186b",
-    "url": "/AnIdea/static/css/main.f9f92533.chunk.css"
+    "revision": "6682e47377569bd596ac",
+    "url": "/AnIdea/static/css/main.a2c201a6.chunk.css"
   },
   {
-    "revision": "02536b4c31583b6955e3",
-    "url": "/AnIdea/static/js/2.378594f2.chunk.js"
+    "revision": "3321e5f914c892ead899",
+    "url": "/AnIdea/static/js/2.5bdb533d.chunk.js"
   },
   {
     "revision": "6d1f2c54df40d51a086cb704d80d6d60",
-    "url": "/AnIdea/static/js/2.378594f2.chunk.js.LICENSE.txt"
+    "url": "/AnIdea/static/js/2.5bdb533d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e04382c435ec3fd186b",
-    "url": "/AnIdea/static/js/main.4caa5b10.chunk.js"
+    "revision": "6682e47377569bd596ac",
+    "url": "/AnIdea/static/js/main.831d0a9c.chunk.js"
   },
   {
     "revision": "d7a1a7f278233d667fa0",
@@ -44,11 +44,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AnIdea/static/media/bindings1.68f8ee15.jpg"
   },
   {
-    "revision": "2c533cd02d927b18e55f85993a113dc4",
-    "url": "/AnIdea/static/media/blob.2c533cd0.svg"
+    "revision": "a9824d7cb42f46e4df6bcbb7a51376d7",
+    "url": "/AnIdea/static/media/countingStars.a9824d7c.svg"
   },
   {
     "revision": "30d5ef91caaae1015897eab41036535f",
     "url": "/AnIdea/static/media/headshot.30d5ef91.gif"
+  },
+  {
+    "revision": "ba4f32374d5ec11bc2e9da0373bd2fd5",
+    "url": "/AnIdea/static/media/javaScript.ba4f3237.svg"
+  },
+  {
+    "revision": "2dc5cdb2c1c54c13effc49398dc78a1a",
+    "url": "/AnIdea/static/media/research.2dc5cdb2.svg"
+  },
+  {
+    "revision": "565807ccfc538435533f359271e07143",
+    "url": "/AnIdea/static/media/team-up.565807cc.svg"
   }
 ]);
