@@ -4,27 +4,26 @@ import $ from 'jquery';
 class About extends Component {
     render() {
 
-    var i = 0;
+    //var i = 0;
+    // var imageCycle = new Array();
+    // imageCycle[0] = require('../img/headshots/1.png')
+    // imageCycle[1] = require('../img/headshots/2.png')
+    // imageCycle[2] = "img/headshots/3.png"
+    // imageCycle[3] = "img/headshots/4.png"
+    // imageCycle[4] = "img/headshots/5.png"
+    // imageCycle[5] = "img/headshots/6.png"
+    // imageCycle[6] = "img/headshots/7.png"
+    // imageCycle[7] = "img/headshots/8.png"
+    // imageCycle[8] = "img/headshots/9.1.png"
+    // imageCycle[9] = "img/headshots/1.png"
 
-    var imageCycle = new Array();
-    imageCycle[0] = "/../img/headshots/1.png"
-    imageCycle[1] = "/../img/headshots/2.png"
-    imageCycle[2] = "img/headshots/3.png"
-    imageCycle[3] = "img/headshots/4.png"
-    imageCycle[4] = "img/headshots/5.png"
-    imageCycle[5] = "img/headshots/6.png"
-    imageCycle[6] = "img/headshots/7.png"
-    imageCycle[7] = "img/headshots/8.png"
-    imageCycle[8] = "img/headshots/9.1.png"
-    imageCycle[9] = "img/headshots/1.png"
-
-    function cycleImages(){
-        i++;
-        if(i == 10){
-        i = 0;
-        }
-        $('#coverImage').attr('src', require(imageCycle[i]));
-    }
+    // function cycleImages(){
+    //     i++;
+    //     if(i == 10){
+    //     i = 0;
+    //     }
+    //     $('#coverImage').attr('src', require(imageCycle[i]));
+    // }
 
         function scrollToAbout1() {
             document.getElementById('about-Page-1').scrollIntoView({behavior: "smooth"});
@@ -78,7 +77,7 @@ class About extends Component {
                     </div>
                     <div id="item-content">
                         <p>All my life I have been deeply interested in form, functionality, and visual design.</p>
-                        <p>During college I build toys - seriously. I would design, 3D model, fabricate, and program whichever
+                        <p>During college I built toys - seriously. I would design, 3D model, fabricate, and program whichever
                             idea i had concocted. I'd then create graphic boards, give presentations and try to impress an audiance as
                             to why my toy is so neat.
                         </p>

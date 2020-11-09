@@ -322,6 +322,11 @@ hr {
   margin: auto;
 }
 
+.carousel-item.active {
+  display:flex;
+  justify-content: center;
+}
+
 
 #coverImage {
   max-width: 400px;
@@ -362,6 +367,8 @@ hr {
   align-items: center;
   height: 100vh;
   padding: 15%;
+
+  scroll-snap-align: start;
 
   a {
     margin: 5px;
@@ -446,5 +453,54 @@ hr {
 .carousel-indicators{
   li{
     width: 1px;
+  }
+}
+
+#parallax-obj1 {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  height: 50%;
+  width: 50%;
+  opacity: .5;
+
+  background-image: url("../src/img/blob.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .wrapper {
+    grid-template-columns: 10% auto;
+  }
+
+  #header {
+    padding: 5px;
+     h1 {
+       font-size: 20px;
+     }
+  }
+
+  #menu-link {
+    font-size: 12px;
+  }
+
+  section {
+    grid-template-columns: 10% 1fr 10%;
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+
+  #title {
+    padding: 10%;
+    h1 {
+      font-size: 32px;
+    }
   }
 }
