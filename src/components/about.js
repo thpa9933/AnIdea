@@ -34,7 +34,7 @@ class About extends Component {
         }
 
         return (
-            <div class="main">
+            <>
                 <section>
                     <div id="title">
                         <h1>About</h1>
@@ -64,7 +64,7 @@ class About extends Component {
                         <p>Being a creative technologist, Tom would like to use his skills to help other people bring their ideas to life.</p>
                     </div>
 
-                    <div id="scroll-preview" >
+                    <div id="scroll-preview">
                         <img id="down-arrow" onClick={scrollToAbout2} src={require('../img/Arrow-down.svg')} height="20px"/>
                     </div>
                 </section>
@@ -93,7 +93,7 @@ class About extends Component {
                     </div>
                 </section>
 
-            </div>
+            </>
         );
     }
 }

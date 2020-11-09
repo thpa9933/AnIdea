@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import Parallax from 'react-rellax';
+
 
 class Home extends Component {
     render(){
@@ -13,8 +15,8 @@ class Home extends Component {
         }
 
         return (
-            <div className="main">
-                <section>
+            <>
+                <section id="home0">
                     <div id="title">
                         <h4>So you have</h4>
                         <h1>An Idea</h1>
@@ -33,9 +35,8 @@ class Home extends Component {
                         <p>Whether it be graphic design, software development, part fabrication or physical computing -
                             We are skilled in it all.
                         </p>
-
-                        
                     </div>
+
                     <div id="scroll-preview" >
                         <img id="down-arrow" onClick={scrollToHome2} src={require('../img/Arrow-down.svg')} height="20px"/>
                     </div>
@@ -60,7 +61,7 @@ class Home extends Component {
                         </Link>
                     </div>
                 </section>
-            </div>
+            </>
         );
     }
 }

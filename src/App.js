@@ -57,55 +57,50 @@ function App() {
 
 
     return (
-        
-        <div className="wrapper">
-            <HashRouter> 
-                <Header/>
-                <div id="navigation"><Navigation/></div>
-                
-                <div className="content">
-                    <AnimatePresence exitBeforeEnter>
-                    <Switch >
+        <HashRouter> 
+            <Header/>
+            <div id="navigation"><Navigation/></div>
+            
+            <div className="content">
+                <AnimatePresence exitBeforeEnter>
+                <Switch >
 
-                        <Route exact path="/" component={Home}/>
+                    <Route exact path="/" component={Home}/>
+                                        
+                    <Route exact path="/Services" component={ServicesHome}/>
 
-                                            
-                        <Route exact path="/Services" component={ServicesHome}/>
+                    <Route exact path="/About" component={About}/>
 
-                        <Route exact path="/About" component={About}/>
+                    <Route exact path="/CreativeBrief">
+                        <BeginBrief addServiceName={addServiceName} service={service}/>
+                    </Route>
 
-                        <Route exact path="/CreativeBrief">
-                            <BeginBrief addServiceName={addServiceName} service={service}/>
-                        </Route>
+                    <Route exact path="/CreativeBrief/projectDescription">
+                        <ProjectDescription addDescription={addDescription} service={service}/>
+                    </Route>
 
-                        <Route exact path="/CreativeBrief/projectDescription">
-                            <ProjectDescription addDescription={addDescription} service={service}/>
-                        </Route>
+                    <Route exact path="/CreativeBrief/projectObjective">
+                    </Route>
 
-                        <Route exact path="/CreativeBrief/projectObjective">
-                        </Route>
+                    <Route exact path="/CreativeBrief/projectAudiance" >
+                        <ProjectAudiance addAudiance={addAudiance} service={service}/>
+                    </Route>
 
-                        <Route exact path="/CreativeBrief/projectAudiance" >
-                            <ProjectAudiance addAudiance={addAudiance} service={service}/>
-                        </Route>
+                    <Route exact path="/CreativeBrief/projectScope" >
+                        <ProjectScope addScope={addScope} service={service}/>
+                    </Route>
 
-                        <Route exact path="/CreativeBrief/projectScope" >
-                            <ProjectScope addScope={addScope} service={service}/>
-                        </Route>
+                    <Route exact path="/CreativeBrief/Summary" >
+                        <BriefSummary service={service}/>
+                    </Route>
 
-                        <Route exact path="/CreativeBrief/Summary" >
-                            <BriefSummary service={service}/>
-                        </Route>
+                    <Route render={function () { return <p> Route not found :( </p>}} />
 
-                        <Route render={function () { return <p> Route not found :( </p>}} />
-
-                    </Switch>
-                    </AnimatePresence>
-                </div>
-                
-            </HashRouter>
-        
-        </div>
+                </Switch>
+                </AnimatePresence>
+            </div>
+            
+        </HashRouter>
     )
 }
 
