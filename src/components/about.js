@@ -50,18 +50,13 @@ class About extends Component {
                 </section>
 
                 <section id="about-Page-1">
-                    <div id="item-intro">
-                        <h2>This is Tom</h2>
-                        <p>Tom is the founder of AnIdea.</p>
-                        <hr/>
-                    </div>
                     <div id="item-content">
+                        <h2>This is Tom</h2>
+                        <p>Tom is the founder of AnIdea. 
+                            Being a creative technologist, Tom would like to use his skills to help other people bring their ideas to life.</p>
+                        <hr/>
                     {/* onmouseover={cycleImages} */}
                         <img id="coverImage" src={require("../img/headshots/headshot.gif") } />
-                    </div>
-
-                    <div id="item-conclusion">
-                        <p>Being a creative technologist, Tom would like to use his skills to help other people bring their ideas to life.</p>
                     </div>
 
                     <div id="scroll-preview">
@@ -70,24 +65,20 @@ class About extends Component {
                 </section>
 
                 <section id="about-Page-2">
-                    <div id="item-intro">
+                    <div id="item-content">
                         <h2>We may be small, but were Mighty</h2>
                         <p>Well - i'm mighty.</p>
                         <hr/>
-                    </div>
-                    <div id="item-content">
                         <p>All my life I have been deeply interested in form, functionality, and visual design.</p>
-                        <p>During college I built toys - seriously. I would design, 3D model, fabricate, and program whichever
+                        <p>During college I was largely into physical computing. I would design, 3D model, fabricate, and program whichever
                             idea i had concocted. I'd then create graphic boards, give presentations and try to impress an audiance as
-                            to why my toy is so neat.
+                            to why my product is so neat.
                         </p>
                         <p>
                             I didn't only build toys though. I've worked extensivly programming a 3D modeling engine, cyber simulations, novel medical hardware,
-                            and now I currently write software for the Joint Strike Fighter.
+                            and now I currently write software for the Joint Strike Fighter. If you need work on your motorcycle - I'm a bit of a motorhead as well..
                         </p> 
-                    </div>
 
-                    <div id="item-conclusion">
                         <p>So all in all i'm a Jack. I love seeing ideas come to life and I have accumulated a broad
                             skillset to make that happen. So if you provide me with AnIdea - i'll create it.</p>
                     </div>

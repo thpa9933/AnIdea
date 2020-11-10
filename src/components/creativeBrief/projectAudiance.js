@@ -6,9 +6,16 @@ import { Button } from 'react-bootstrap';
 function ProjectAudiance({addAudiance, service}){
 
         let audianceList = [
-            'Audiance1',
-            'Audiance2',
-            'Audiance3'
+            'Age 0 - 20',
+            'Age 20 - 40',
+            'Age 40+',
+            'Business',
+            'Sports',
+            'People',
+            'Local',
+            'Culture',
+            'Politics',
+            'Other'
         ];    
 
         return (
@@ -18,12 +25,9 @@ function ProjectAudiance({addAudiance, service}){
                 exit={{ opacity: 0}}
             >
                 <section>
-                    <div id="item-intro">
-                        <h2>Let's identify your target audiance.</h2>
-                        <p>Select a few from the list below</p>
-                    </div>
-
                     <div id="item-content">
+                    <h2>Let's identify your target audiance.</h2>
+                        <p>Select a few from the list below</p>
                         <ul>
                             {audianceList.map(name => {
                                 let spanClass = service.serviceAudiance.includes(name) ? 'activeBrief' : '';
@@ -41,14 +45,6 @@ function ProjectAudiance({addAudiance, service}){
                             <div id="nextButton">Complete Brief!</div>
                         </Link>
                     </div>
-
-
-
-
-
-                </section>
-                <section>
-                    <h2>subtitle</h2>
                 </section>
             </motion.div>
         );

@@ -4,6 +4,20 @@ import { Button } from 'react-bootstrap';
 
 const BriefSummary = ({service}) => {
 
+    function sendMail() {
+        var link = "mailto:thpa9933@colorado.edu"
+        + "&subject=" + escape("AnIdea Inquiry")
+        + "&body=" + escape(
+            service.serviceName, 
+            service.serviceDescription,
+            service.serviceAudiance,
+            service.serviceScope
+        )
+    ;
+
+    window.location.href = link;
+    }
+
     return (
         <motion.div
             initial={{ opacity: 0}}
@@ -11,13 +25,11 @@ const BriefSummary = ({service}) => {
             exit={{ opacity: 0}}
         >
             <section>
-                <div id="item-intro">
+                <div id="item-content">
                     <h2>Congrats, you're all set.</h2>
                     <p>Did we get everything right?</p>
                     <hr/>
-                </div>
-                
-                <div id="item-content">
+
                     <h4>Product Category</h4>
                         {service.serviceName}
 
@@ -33,7 +45,7 @@ const BriefSummary = ({service}) => {
                 </div>
 
                 <div id="item-conclusion">
-                    <Button variant="dark">Submit!</Button>
+                    <Button variant="dark" onClick={sendMail}>Submit!</Button>
                 </div>
 
             </section>

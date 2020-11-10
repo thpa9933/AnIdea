@@ -18,7 +18,7 @@ function ProjectDescription({addDescription, service}){
             <section>
                 <div id="item-intro">
                     <h2>Describe your Idea</h2>
-                    <p>What problem are you trying to solve?</p>
+                    <p>What problem are you trying to solve? Whats your objective?</p>
                     <hr/>
                 </div>
                 <div id="item-content">

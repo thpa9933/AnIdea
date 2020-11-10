@@ -25,6 +25,10 @@ class Home extends Component {
                     <div id="scroll-preview">
                         <img id="down-arrow" onClick={scrollToHome1} src={require('../img/Arrow-down.svg')} height="20px"/>
                     </div>
+
+                    <div id="devWarning">
+                        <p> * This site is under development, but please enjoy! *</p>
+                    </div>
                     
                 </section>
 
@@ -32,8 +36,8 @@ class Home extends Component {
                     <div id="title">
                         <h2>We are a Do-it-all agency.</h2>
                         <br/>
-                        <p>Whether it be graphic design, software development, part fabrication or physical computing -
-                            We are skilled in it all.
+                        <p>Whether it be software development, graphic design, part fabrication or physical computing -
+                            We have skills and resources to get your idea moving forward.
                         </p>
                     </div>
 
