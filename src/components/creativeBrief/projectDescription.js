@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 
 function ProjectDescription({addDescription, service}){
 

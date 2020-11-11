@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import Parallax from 'react-rellax';
+//import Parallax from 'react-rellax';
 
 
 class Home extends Component {
