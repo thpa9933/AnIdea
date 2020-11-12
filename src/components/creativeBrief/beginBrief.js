@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 
-const BeginBrief = ({ addServiceName, service }) => {
+const BeginBrief = ({ addServiceName, addUsername, addEmail, service }) => {
         let serviceNames = [
             'Physical Device',
             'Website or Web Application',
@@ -11,6 +11,14 @@ const BeginBrief = ({ addServiceName, service }) => {
             'Graphic Art or Media Design',
             'Mechanical part design'
         ];    
+
+    const handleUsername = e => {
+        addUsername(e.target.value);
+    }
+
+    const handleEmail = e => {
+        addEmail(e.target.value);
+    }
     
     return (
         <motion.div
@@ -19,14 +27,18 @@ const BeginBrief = ({ addServiceName, service }) => {
             exit={{ opacity: 0}}
         >
             <section>
-                <div id="item-intro">
-                    <h2>Lets start here.</h2>
+                <ul id="item-content">
+                <h2>Lets start here.</h2>
+                    
+                    <form id="userInfo">
+                        <p>Fill out your</p>
+                        <input id="userText" text="text" placeholder="name" onChange={handleUsername}/>
+                        <p>And</p>
+                        <input id="userText" text="text" placeholder="email" onChange={handleEmail}/>
+                    </form>
+
                     <p> Generally speaking, what will the final product look like?</p>
                     <hr/>
-                </div>
-
-                <ul id="item-content">
-
                     {serviceNames.map(name => {
                         let spanClass = service.serviceName.includes(name) ? 'activeBrief' : '';
                         return (

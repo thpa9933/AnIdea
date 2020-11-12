@@ -29,7 +29,7 @@ const BriefSummary = ({service}) => {
         >
             <section>
                 <div id="item-content">
-                    <h2>Congrats, you're all set.</h2>
+                    <h2>Congrats {service.serviceUsername}, you're all set.</h2>
                     <p>Did we get everything right?</p>
                     <hr/>
 

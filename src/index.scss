@@ -492,3 +492,22 @@ hr {
     padding: 0;
   }
 }
+
+#userInfo {
+  display: flex;
+  margin-top: 10px;
+  p{
+    margin-top:3px;
+  }
+}
+
+#userText {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: var(--accent-color); 
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30px;
+  font-weight: bold;
+}

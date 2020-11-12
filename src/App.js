@@ -30,10 +30,21 @@ import About from './components/about';
 
 function App() {
 
-    const [service, setService] = useState({serviceName: "", serviceDescription: "", serviceScope: "", serviceAudiance: []});
+    const [service, setService] = useState({
+        serviceName: "",
+        serviceUsername: "",
+        serviceDescription: "",
+        serviceScope: "",
+        serviceAudiance: [],
+        serviceEmail: ""
+    });
 
     const addServiceName = (name) => {
         setService({ ...service, serviceName: name });
+    }
+
+    const addUsername = (username) => {
+        setService({...service, serviceUsername: username});
     }
 
     const addDescription = (description) => {
@@ -55,6 +66,10 @@ function App() {
         setService({...service, serviceAudiance: newAudiance});
     }
 
+    const addEmail = (email) => {
+        setService({...service, serviceEmail: email});
+    }
+
 
     return (
         <HashRouter> 
@@ -72,7 +87,7 @@ function App() {
                     <Route exact path="/About" component={About}/>
 
                     <Route exact path="/CreativeBrief">
-                        <BeginBrief addServiceName={addServiceName} service={service}/>
+                        <BeginBrief addServiceName={addServiceName} addUsername={addUsername} addEmail={addEmail} service={service}/>
                     </Route>
 
                     <Route exact path="/CreativeBrief/projectDescription">
