@@ -1,21 +1,24 @@
-import React, { Component, useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from 'react-bootstrap';
 
 const BriefSummary = ({service}) => {
 
-    function sendMail() {
-        var link = "mailto:thpa9933@colorado.edu"
-        + "&subject=" + escape("AnIdea Inquiry")
-        + "&body=" + escape(
-            service.serviceName, 
-            service.serviceDescription,
-            service.serviceAudiance,
-            service.serviceScope
-        )
-    ;
+    const onSubmitForm = async e => {
+        //Don't refresh
+        e.preventDefault();
+        try {
+            const body = { service };
+            const response = await fetch("http://localhost:5000/services", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(body)
+            });
 
-    window.location.href = link;
+            console.log(response);
+        } catch (error) {
+            console.error(error.message);
+        }
     }
 
     return (
@@ -45,7 +48,7 @@ const BriefSummary = ({service}) => {
                 </div>
 
                 <div id="item-conclusion">
-                    <Button variant="dark" onClick={sendMail}>Submit!</Button>
+                    <Button variant="dark" onClick={onSubmitForm}>Submit!</Button>
                 </div>
 
             </section>
