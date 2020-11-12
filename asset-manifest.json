@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AnIdea/static/css/main.b3da5729.chunk.css",
-    "main.js": "/AnIdea/static/js/main.4a639293.chunk.js",
-    "main.js.map": "/AnIdea/static/js/main.4a639293.chunk.js.map",
+    "main.css": "/AnIdea/static/css/main.13352e76.chunk.css",
+    "main.js": "/AnIdea/static/js/main.c1df84e2.chunk.js",
+    "main.js.map": "/AnIdea/static/js/main.c1df84e2.chunk.js.map",
     "runtime-main.js": "/AnIdea/static/js/runtime-main.c20cf64a.js",
     "runtime-main.js.map": "/AnIdea/static/js/runtime-main.c20cf64a.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/AnIdea/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.40e6d60f.chunk.js": "/AnIdea/static/js/2.40e6d60f.chunk.js",
-    "static/js/2.40e6d60f.chunk.js.map": "/AnIdea/static/js/2.40e6d60f.chunk.js.map",
+    "static/js/2.1d3a5862.chunk.js": "/AnIdea/static/js/2.1d3a5862.chunk.js",
+    "static/js/2.1d3a5862.chunk.js.map": "/AnIdea/static/js/2.1d3a5862.chunk.js.map",
     "index.html": "/AnIdea/index.html",
-    "precache-manifest.001a1cc92b7320ce23de13f9f6cacbe9.js": "/AnIdea/precache-manifest.001a1cc92b7320ce23de13f9f6cacbe9.js",
+    "precache-manifest.17a395ee76968cabde860c058a28f063.js": "/AnIdea/precache-manifest.17a395ee76968cabde860c058a28f063.js",
     "service-worker.js": "/AnIdea/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/AnIdea/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.b3da5729.chunk.css.map": "/AnIdea/static/css/main.b3da5729.chunk.css.map",
-    "static/js/2.40e6d60f.chunk.js.LICENSE.txt": "/AnIdea/static/js/2.40e6d60f.chunk.js.LICENSE.txt",
+    "static/css/main.13352e76.chunk.css.map": "/AnIdea/static/css/main.13352e76.chunk.css.map",
+    "static/js/2.1d3a5862.chunk.js.LICENSE.txt": "/AnIdea/static/js/2.1d3a5862.chunk.js.LICENSE.txt",
     "static/media/Arrow-down.svg": "/AnIdea/static/media/Arrow-down.7fc62e6e.svg",
     "static/media/EarPiece.png": "/AnIdea/static/media/EarPiece.8af1234a.png",
     "static/media/Furniture1.jpg": "/AnIdea/static/media/Furniture1.8008f8da.jpg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.c20cf64a.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.40e6d60f.chunk.js",
-    "static/css/main.b3da5729.chunk.css",
-    "static/js/main.4a639293.chunk.js"
+    "static/js/2.1d3a5862.chunk.js",
+    "static/css/main.13352e76.chunk.css",
+    "static/js/main.c1df84e2.chunk.js"
   ]
 }
