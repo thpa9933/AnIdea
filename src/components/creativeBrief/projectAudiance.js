@@ -26,7 +26,7 @@ function ProjectAudiance({addAudiance, service}){
                 <section>
                     <div id="item-content">
                     <h2>Let's identify your target audiance.</h2>
-                        <p>Select a few from the list below</p>
+                        <p>Select a few from the list below.</p>
                         <ul>
                             {audianceList.map(name => {
                                 let spanClass = service.serviceAudiance.includes(name) ? 'activeBrief' : '';

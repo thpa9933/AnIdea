@@ -59,7 +59,7 @@ function ServicesHome() {
                         It takes time, resources and sheer interest.
                     </p>
                     <p>
-                        Good thing AnIdea loves research. We are more than happy to deep dive into
+                        Good thing AnIdea loves research! We are more than happy to deep dive into
                         any technical topic you please.
                     </p>
                 </div>
@@ -69,7 +69,7 @@ function ServicesHome() {
                     <h3>What can we help you research?</h3>
                     <p>
                         Let us create whitepapers, diagrams,
-                        and other meaninful displays of information so you have a solid foundation for development.
+                        and other meaningful displays of information so you have a solid foundation for development.
                     </p>
                 </div>
 
@@ -124,7 +124,7 @@ function ServicesHome() {
                     <div class="image-section">
                         <h1>3D Modeling</h1>
                         <p> Modeling and rendering is an excellent way to get a better grasp on what your
-                            tangeble product will look like. It helps with hone proper ergonomics, form, and functionality.
+                            tangible product will look like. It helps to determine proper ergonomics, form, and functionality.
                         </p>
                     </div>
                 </div>
@@ -171,15 +171,21 @@ function ServicesHome() {
                 <div id="item-left">
                 <h1>Physical Computing</h1>
                     <p>Most devices require inputs from the environment.
-                        We can design and leverage sensor systems to collect smooth and interpolate the data!
+                        We can design and leverage sensor systems to collect, smooth and interpolate the data!
                         From there we use the data to make your device act accordingly.</p>
                 
                 </div>
                 <div id="item-right">
-                    <h4>Past Projects</h4>
-                    <p>We leverage microprocessors, embedded programming and a whole bunch
-                        circuity to make these things possible.
-                    </p>
+                    <h4>How? With the use of these tools:</h4>
+                    <ul id="computing-list">
+                        <li>Rasberry Pi</li>
+                        <li>Arduino</li>
+                        <li>Sensors (PPGs, GSRs, electrodes etc.)</li>
+                        <li>Motors (DC, Stepper)</li>
+                        <li>3D printers</li>
+                        <li>Laser cutters</li>
+                        <li>CNC mills</li>
+                    </ul>
                 </div>
 
                 <div id="scroll-preview">

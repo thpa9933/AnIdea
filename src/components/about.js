@@ -81,6 +81,9 @@ class About extends Component {
                         <p>So all in all i'm a Jack. I love seeing ideas come to life and I have accumulated a broad
                             skillset to make that happen. So if you provide me with AnIdea - i'll create it.</p>
                     </div>
+                    <div id="item-conclusion">
+                        <p><a href="https://www.linkedin.com/in/thomas-payne-135808155">Visit my LinkedIn</a></p>
+                    </div>
                 </section>
 
             </>

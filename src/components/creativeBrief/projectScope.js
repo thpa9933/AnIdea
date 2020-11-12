@@ -18,7 +18,7 @@ function ProjectScope({addScope, service}){
             <section>
                 <div id="item-intro">
                     <h2>Lets talk about project scope.</h2>
-                    <p>Can we break the work into mile stones?</p>
+                    <p>Can we break the work into milestones?</p>
                     <p>What is the time frame?</p>
                     <p>What do you consider to be a successful?</p>
                     <hr/>
@@ -33,7 +33,7 @@ function ProjectScope({addScope, service}){
 
                 <div id="item-conclusion">
                     <Link to="/CreativeBrief/projectAudiance">
-                        <div id="nextButton">Go to next selection</div>
+                        <div id="nextButton">Choose the audiance</div>
                     </Link>
                 </div>
             </section>

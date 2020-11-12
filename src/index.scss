@@ -87,6 +87,7 @@ li {
   font-size:18px;
   padding-left: 10px;
   border-left: 2px solid black;
+  font-style: italic;
 }
 
 .NavButton {
@@ -108,7 +109,6 @@ li {
   text-decoration: none;
   margin: 10px;
   padding: 10px;
-  font-style: italic;
   font-size: 14px;
   cursor: pointer;
 
@@ -374,6 +374,10 @@ hr {
   p {
     font-size: 10px;
   }
+}
+
+#computing-list {
+  padding: 0;
 }
 
 #services-img-web {
