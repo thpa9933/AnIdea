@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/AnIdea/static/css/main.63d6197e.chunk.css",
-    "main.js": "/AnIdea/static/js/main.525e07f9.chunk.js",
-    "main.js.map": "/AnIdea/static/js/main.525e07f9.chunk.js.map",
+    "main.css": "/AnIdea/static/css/main.3977dd1d.chunk.css",
+    "main.js": "/AnIdea/static/js/main.80a6e6f8.chunk.js",
+    "main.js.map": "/AnIdea/static/js/main.80a6e6f8.chunk.js.map",
     "runtime-main.js": "/AnIdea/static/js/runtime-main.c20cf64a.js",
     "runtime-main.js.map": "/AnIdea/static/js/runtime-main.c20cf64a.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/AnIdea/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.6a353eee.chunk.js": "/AnIdea/static/js/2.6a353eee.chunk.js",
-    "static/js/2.6a353eee.chunk.js.map": "/AnIdea/static/js/2.6a353eee.chunk.js.map",
+    "static/js/2.40e6d60f.chunk.js": "/AnIdea/static/js/2.40e6d60f.chunk.js",
+    "static/js/2.40e6d60f.chunk.js.map": "/AnIdea/static/js/2.40e6d60f.chunk.js.map",
     "index.html": "/AnIdea/index.html",
-    "precache-manifest.6e9f986eba3c646dd2900ff18f19d261.js": "/AnIdea/precache-manifest.6e9f986eba3c646dd2900ff18f19d261.js",
+    "precache-manifest.f3bdc12bfdd21c131b95227e57c45614.js": "/AnIdea/precache-manifest.f3bdc12bfdd21c131b95227e57c45614.js",
     "service-worker.js": "/AnIdea/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/AnIdea/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.63d6197e.chunk.css.map": "/AnIdea/static/css/main.63d6197e.chunk.css.map",
-    "static/js/2.6a353eee.chunk.js.LICENSE.txt": "/AnIdea/static/js/2.6a353eee.chunk.js.LICENSE.txt",
+    "static/css/main.3977dd1d.chunk.css.map": "/AnIdea/static/css/main.3977dd1d.chunk.css.map",
+    "static/js/2.40e6d60f.chunk.js.LICENSE.txt": "/AnIdea/static/js/2.40e6d60f.chunk.js.LICENSE.txt",
     "static/media/Arrow-down.svg": "/AnIdea/static/media/Arrow-down.7fc62e6e.svg",
     "static/media/EarPiece.png": "/AnIdea/static/media/EarPiece.8af1234a.png",
     "static/media/Furniture1.jpg": "/AnIdea/static/media/Furniture1.8008f8da.jpg",
     "static/media/bindings1.jpg": "/AnIdea/static/media/bindings1.68f8ee15.jpg",
     "static/media/bindings3.jpg": "/AnIdea/static/media/bindings3.47a1c2ca.jpg",
-    "static/media/index.scss": "/AnIdea/static/media/team-up.565807cc.svg",
+    "static/media/index.scss": "/AnIdea/static/media/research.2dc5cdb2.svg",
     "static/media/d4d.png": "/AnIdea/static/media/d4d.b7147042.png",
     "static/media/headshot.gif": "/AnIdea/static/media/headshot.30d5ef91.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.c20cf64a.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.6a353eee.chunk.js",
-    "static/css/main.63d6197e.chunk.css",
-    "static/js/main.525e07f9.chunk.js"
+    "static/js/2.40e6d60f.chunk.js",
+    "static/css/main.3977dd1d.chunk.css",
+    "static/js/main.80a6e6f8.chunk.js"
   ]
 }
