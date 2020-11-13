@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AnIdea/static/css/main.13352e76.chunk.css",
-    "main.js": "/AnIdea/static/js/main.c1df84e2.chunk.js",
-    "main.js.map": "/AnIdea/static/js/main.c1df84e2.chunk.js.map",
+    "main.js": "/AnIdea/static/js/main.f57181c1.chunk.js",
+    "main.js.map": "/AnIdea/static/js/main.f57181c1.chunk.js.map",
     "runtime-main.js": "/AnIdea/static/js/runtime-main.c20cf64a.js",
     "runtime-main.js.map": "/AnIdea/static/js/runtime-main.c20cf64a.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/AnIdea/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.1d3a5862.chunk.js": "/AnIdea/static/js/2.1d3a5862.chunk.js",
     "static/js/2.1d3a5862.chunk.js.map": "/AnIdea/static/js/2.1d3a5862.chunk.js.map",
     "index.html": "/AnIdea/index.html",
-    "precache-manifest.17a395ee76968cabde860c058a28f063.js": "/AnIdea/precache-manifest.17a395ee76968cabde860c058a28f063.js",
+    "precache-manifest.48d09347c926779a9825d7666d8482f3.js": "/AnIdea/precache-manifest.48d09347c926779a9825d7666d8482f3.js",
     "service-worker.js": "/AnIdea/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/AnIdea/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.13352e76.chunk.css.map": "/AnIdea/static/css/main.13352e76.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.1d3a5862.chunk.js",
     "static/css/main.13352e76.chunk.css",
-    "static/js/main.c1df84e2.chunk.js"
+    "static/js/main.f57181c1.chunk.js"
   ]
 }
