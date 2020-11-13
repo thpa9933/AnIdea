@@ -36,7 +36,7 @@ class Home extends Component {
                     <div id="title">
                         <h2>We are a Do-it-all agency.</h2>
                         <br/>
-                        <p>Whether it be software development, graphic design, part fabrication or physical computing -
+                        <p>Whether it be software development, 3D design, graphic design or physical computing -
                             We have skills and resources to get your idea moving forward.
                         </p>
                     </div>

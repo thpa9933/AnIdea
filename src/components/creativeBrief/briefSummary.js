@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from 'react-bootstrap';
+//import SubmissionModal from './submission';
 
 const BriefSummary = ({service}) => {
 
@@ -9,6 +10,8 @@ const BriefSummary = ({service}) => {
         e.preventDefault();
         try {
             const body = { service };
+
+            // By default fetch makes a GET request
             const response = await fetch("http://localhost:5000/services", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -49,6 +52,8 @@ const BriefSummary = ({service}) => {
 
                 <div id="item-conclusion">
                     <Button variant="dark" onClick={onSubmitForm}>Submit!</Button>
+                    {/* <SubmissionModal/> */}
+
                 </div>
 
             </section>
