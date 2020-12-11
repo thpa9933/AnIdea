@@ -1,10 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Button } from 'react-bootstrap';
-//import SubmissionModal from './submission';
+import SubmissionModal from './submission';
 
 const BriefSummary = ({service}) => {
-
     const onSubmitForm = async e => {
         //Don't refresh
         e.preventDefault();
@@ -51,9 +49,7 @@ const BriefSummary = ({service}) => {
                 </div>
 
                 <div id="item-conclusion">
-                    <Button variant="dark" onClick={onSubmitForm}>Submit!</Button>
-                    {/* <SubmissionModal/> */}
-
+                    <SubmissionModal onClick={onSubmitForm}/>
                 </div>
 
             </section>
