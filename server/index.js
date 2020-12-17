@@ -22,11 +22,9 @@ app.post("/services", async(req, res) => {
                 req.body.service.serviceDescription,
                 req.body.service.serviceScope,
                 req.body.service.serviceAudiance,
-                req.body.service.serviceEmail,
+                req.body.service.serviceEmail
             ]
         );
-
-        console.log(req.body.service.serviceUsername)
 
         res.json(newService.rows[0]);
     } catch (error) {
@@ -34,7 +32,14 @@ app.post("/services", async(req, res) => {
     }
 }) 
 
-// update a service
+app.get("/services", async(req, res) => {
+    try {
+        const services = await pool.query("SELECT * FROM service");
+        res.json(services.rows);
+    } catch (error) {
+        console.error(error.message);
+    }
+})
 
 
 app.listen(5000, () => {

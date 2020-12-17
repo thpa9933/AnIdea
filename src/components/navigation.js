@@ -11,19 +11,19 @@ class Navigation extends Component {
                 <Navbar>
                     <Nav defaultActiveKey="/" className="flex-column">
 
-                        <NavItem eventKey={1} href="/" id="menu-link">
+                        <NavItem eventkey={1} href="/" id="menu-link">
                             <NavLink exact activeClassName='activeNav' to="/">Home</NavLink>
                         </NavItem>
 
-                        <NavItem eventKey={2} href="/" id="menu-link">
+                        <NavItem eventkey={2} href="/" id="menu-link">
                             <NavLink exact activeClassName='activeNav' to='/Services'>Services</NavLink>
                         </NavItem>
 
-                        <NavItem eventKey={3} href="/CreativeBrief" id="menu-link">
+                        <NavItem eventkey={3} href="/CreativeBrief" id="menu-link">
                             <NavLink exact activeClassName='activeNav' to="/CreativeBrief">Inquire</NavLink>
                         </NavItem>
 
-                        <NavItem eventKey={4} href="About" id="menu-link">
+                        <NavItem eventkey={4} href="About" id="menu-link">
                             <NavLink exact activeClassName='activeNav' to="/About" >About</NavLink>
                         </NavItem>
 

@@ -44,7 +44,7 @@ class About extends Component {
                     </div>
 
                     <div id="scroll-preview" >
-                        <img id="down-arrow" onClick={scrollToAbout1} src={require('../img/Arrow-down.svg')} height="20px"/>
+                        <img id="down-arrow" alt="" onClick={scrollToAbout1} src={require('../img/Arrow-down.svg')} height="20px"/>
                     </div>
                 </section>
 
@@ -55,11 +55,11 @@ class About extends Component {
                             Being a creative technologist, Tom would like to use his skills to help other people bring their ideas to life.</p>
                         <hr/>
                     {/* onmouseover={cycleImages} */}
-                        <img id="coverImage" src={require("../img/headshots/headshot.gif") } />
+                        <img id="coverImage" alt="" src={require("../img/headshots/headshot.gif") } />
                     </div>
 
                     <div id="scroll-preview">
-                        <img id="down-arrow" onClick={scrollToAbout2} src={require('../img/Arrow-down.svg')} height="20px"/>
+                        <img id="down-arrow" alt="" onClick={scrollToAbout2} src={require('../img/Arrow-down.svg')} height="20px"/>
                     </div>
                 </section>
 

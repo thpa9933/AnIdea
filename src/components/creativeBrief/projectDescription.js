@@ -21,8 +21,8 @@ function ProjectDescription({addDescription, service}){
                     <hr/>
                 </div>
                 <div id="item-content">
-                    <div class="form-group shadow-textarea">
-                        <textarea class="form-control z-depth-1" rows="10" onChange={handleDescription}></textarea>
+                    <div className="form-group shadow-textarea">
+                        <textarea className="form-control z-depth-1" rows="10" onChange={handleDescription}></textarea>
                     </div>
 
                 </div>

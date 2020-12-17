@@ -1,8 +1,5 @@
-import React, { Component, useEffect, useState } from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-
-import Parallax from 'react-rellax';
-
 
 function ServicesHome() {
 
@@ -48,7 +45,7 @@ function ServicesHome() {
                 <div id="services-img-home"/>
 
                 <div id="scroll-preview">
-                        <img id="down-arrow" onClick={scrollToResearch} src={require('../img/Arrow-down.svg')} height="20px"/>
+                        <img id="down-arrow" alt="" onClick={scrollToResearch} src={require('../img/Arrow-down.svg')} height="20px"/>
                 </div>
             </section>
 
@@ -74,7 +71,7 @@ function ServicesHome() {
                 </div>
 
                 <div id="scroll-preview">
-                    <img id="down-arrow" onClick={scrollToSoftware} src={require('../img/Arrow-down.svg')} height="20px"/>
+                    <img id="down-arrow" alt="" onClick={scrollToSoftware} src={require('../img/Arrow-down.svg')} height="20px"/>
                 </div>
             </section>
 
@@ -92,7 +89,7 @@ function ServicesHome() {
                 </p>
 
                 <h3>Single-serving-site Examples</h3>
-                    <div class="weblinks">
+                    <div className="weblinks">
                         <ul id="section-list">
                             <li><a href="https://creative.colorado.edu/~thpa9933/">Tom's old personal site</a></li>
                             <li><a href="http://creative.colorado.edu/~thpa9933/DEV/ClockWork/index.html">Clockwork</a></li>
@@ -114,14 +111,14 @@ function ServicesHome() {
                 {/* <div id="services-img-web"/> */}
 
                 <div id="scroll-preview">
-                    <img id="down-arrow" onClick={scrollToModeling} src={require('../img/Arrow-down.svg')} height="20px"/>
+                    <img id="down-arrow" alt="" onClick={scrollToModeling} src={require('../img/Arrow-down.svg')} height="20px"/>
                 </div>
 
             </section>
 
             <section id="modeling">
                 <div id="item-intro">
-                    <div class="image-section">
+                    <div className="image-section">
                         <h1>3D Modeling</h1>
                         <p> Modeling and rendering is an excellent way to get a better grasp on what your
                             tangible product will look like. It helps to determine proper ergonomics, form, and functionality.
@@ -130,7 +127,7 @@ function ServicesHome() {
                 </div>
 
                 <div id="item-content">
-                    <div class="image-carousel">
+                    <div className="image-carousel">
                         <Carousel>
                             <Carousel.Item>
                                 <img
@@ -163,7 +160,7 @@ function ServicesHome() {
                 </div>
 
                 <div id="scroll-preview">
-                    <img id="down-arrow" onClick={scrollToComputing} src={require('../img/Arrow-down.svg')} height="20px"/>
+                    <img id="down-arrow" alt="" onClick={scrollToComputing} src={require('../img/Arrow-down.svg')} height="20px"/>
                 </div>
             </section>
 
@@ -189,7 +186,7 @@ function ServicesHome() {
                 </div>
 
                 <div id="scroll-preview">
-                    <img id="down-arrow" onClick={scrollToGraphicDesign} src={require('../img/Arrow-down.svg')} height="20px"/>
+                    <img id="down-arrow" alt="" onClick={scrollToGraphicDesign} src={require('../img/Arrow-down.svg')} height="20px"/>
                 </div>
             </section>
 

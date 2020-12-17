@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 
 function ProjectScope({addScope, service}){
 
@@ -25,8 +24,8 @@ function ProjectScope({addScope, service}){
                 </div>
 
                 <div id="item-content">
-                    <div class="form-group shadow-textarea">
-                        <textarea class="form-control z-depth-1" rows="10" onChange={handleScope}></textarea>
+                    <div className="form-group shadow-textarea">
+                        <textarea className="form-control z-depth-1" rows="10" onChange={handleScope}></textarea>
                     </div>
 
                 </div>

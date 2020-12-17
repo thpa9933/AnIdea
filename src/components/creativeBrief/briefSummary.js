@@ -3,12 +3,15 @@ import { motion } from 'framer-motion';
 import SubmissionModal from './submission';
 
 const BriefSummary = ({service}) => {
+
     const onSubmitForm = async e => {
-        //Don't refresh
+        //Don't refresh    
+        console.log("SUMBITTED");
+
         e.preventDefault();
         try {
             const body = { service };
-
+            console.log(body);
             // By default fetch makes a GET request
             const response = await fetch("http://localhost:5000/services", {
                 method: "POST",
@@ -45,11 +48,13 @@ const BriefSummary = ({service}) => {
                 
                     <h4>Audiance</h4>
                     {service.serviceAudiance.map(audianceType => {
-                        return (<p>{audianceType} </p> )})}                
+                        return (<p> {audianceType} </p> )})}                
                 </div>
 
                 <div id="item-conclusion">
-                    <SubmissionModal onClick={onSubmitForm}/>
+                    <div onClick={onSubmitForm} width="100%">
+                        <SubmissionModal/>
+                    </div>
                 </div>
 
             </section>

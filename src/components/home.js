@@ -23,7 +23,7 @@ class Home extends Component {
                         <p>Our focus is to provide you with a product. </p>
                     </div>
                     <div id="scroll-preview">
-                        <img id="down-arrow" onClick={scrollToHome1} src={require('../img/Arrow-down.svg')} height="20px"/>
+                        <img id="down-arrow" alt="" onClick={scrollToHome1} src={require('../img/Arrow-down.svg')} height="20px"/>
                     </div>
 
                     <div id="devWarning">
@@ -42,7 +42,7 @@ class Home extends Component {
                     </div>
 
                     <div id="scroll-preview" >
-                        <img id="down-arrow" onClick={scrollToHome2} src={require('../img/Arrow-down.svg')} height="20px"/>
+                        <img id="down-arrow" alt="" onClick={scrollToHome2} src={require('../img/Arrow-down.svg')} height="20px"/>
                     </div>
                 </section>
 
