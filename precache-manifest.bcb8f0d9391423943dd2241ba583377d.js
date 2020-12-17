@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62330da34df0b5f8c7034e97d268455c",
+    "revision": "0dd3f291438f0a021901ced266eeb675",
     "url": "/AnIdea/index.html"
   },
   {
-    "revision": "55062ba9e5cd4788b06b",
+    "revision": "23bbdc6cf5c9de5a5a19",
     "url": "/AnIdea/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "efdc63d7bdbc2b24b8bb",
+    "revision": "496ec952613a48789619",
     "url": "/AnIdea/static/css/main.13352e76.chunk.css"
   },
   {
-    "revision": "55062ba9e5cd4788b06b",
-    "url": "/AnIdea/static/js/2.69e40a55.chunk.js"
+    "revision": "23bbdc6cf5c9de5a5a19",
+    "url": "/AnIdea/static/js/2.7e464217.chunk.js"
   },
   {
     "revision": "2069192f75c6f3fb6247231eea52f248",
-    "url": "/AnIdea/static/js/2.69e40a55.chunk.js.LICENSE.txt"
+    "url": "/AnIdea/static/js/2.7e464217.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "efdc63d7bdbc2b24b8bb",
-    "url": "/AnIdea/static/js/main.a2c0f097.chunk.js"
+    "revision": "496ec952613a48789619",
+    "url": "/AnIdea/static/js/main.a5d925f7.chunk.js"
   },
   {
     "revision": "d7a1a7f278233d667fa0",
